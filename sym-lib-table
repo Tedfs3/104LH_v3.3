@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Headers)(type Legacy)(uri ${KIPRJMOD}/Libraries/Headers.lib)(options "")(descr ""))
+  (lib (name teesny2.0++)(type Legacy)(uri ${KIPRJMOD}/Libraries/teesny2.0++.lib)(options "")(descr ""))
+  (lib (name THT_Components)(type Legacy)(uri ${KIPRJMOD}/Libraries/THT_Components.lib)(options "")(descr ""))
+  (lib (name usb_data)(type Legacy)(uri ${KIPRJMOD}/Libraries/usb_data.lib)(options "")(descr ""))
+  (lib (name usb_power)(type Legacy)(uri ${KIPRJMOD}/Libraries/usb_power.lib)(options "")(descr ""))
+)

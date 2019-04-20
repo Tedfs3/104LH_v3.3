@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name headers)(type KiCad)(uri ${KIPRJMOD}/Modules/headers.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/Modules/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name pcb)(type KiCad)(uri ${KIPRJMOD}/Modules/pcb.pretty)(options "")(descr ""))
+)
