@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:104_LHv3.3-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 19685 11811

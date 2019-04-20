@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:104_LHv3.3-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 19685 13811
@@ -591,7 +592,7 @@ F 1 "CAP" H 1425 3100 50  0000 C CNN
 F 2 "pcb:LED_D3.0mm_FlatTop" H 1425 2925 50  0001 C CNN
 F 3 "" H 1425 3175 50  0001 C CNN
 	1    1425 3175
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L THT_Components:LED L2
@@ -602,7 +603,7 @@ F 1 "NUM" H 1425 3350 50  0000 C CNN
 F 2 "pcb:LED_D3.0mm_FlatTop" H 1425 3175 50  0001 C CNN
 F 3 "" H 1425 3425 50  0001 C CNN
 	1    1425 3425
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Label 4625 3475 2    50   ~ 0
 RX
@@ -675,11 +676,14 @@ Wire Wire Line
 Connection ~ 3425 6425
 Text Label 2675 6775 2    50   ~ 0
 GND
-Wire Wire Line
-	1275 2975 1275 3175
-Connection ~ 1275 3175
-Wire Wire Line
-	1275 3175 1275 3425
+Text Label 1275 3425 2    50   ~ 0
+GND
+Text Label 1275 3175 2    50   ~ 0
+GND
+Text Label 2125 3175 0    50   ~ 0
+LED_00
+Text Label 2125 3425 0    50   ~ 0
+LED_01
 Wire Wire Line
 	9450 3800 10000 3800
 Wire Wire Line
@@ -720,6 +724,13 @@ Wire Wire Line
 	9450 6500 10000 6500
 Wire Wire Line
 	9450 6650 10000 6650
+Wire Bus Line
+	12250 2175 12250 4500
+Wire Wire Line
+	1275 2975 1275 3175
+Connection ~ 1275 3175
+Wire Wire Line
+	1275 3175 1275 3425
 Wire Wire Line
 	11950 4400 12450 4400
 Wire Wire Line
@@ -741,19 +752,9 @@ Wire Wire Line
 Wire Bus Line
 	5575 2175 12250 2175
 Wire Bus Line
-	12250 2175 12250 4500
-Wire Bus Line
 	4075 4075 4075 5675
 Wire Bus Line
 	7325 2175 7325 6900
 Wire Bus Line
 	9650 3750 9650 6900
-Text Label 1275 3425 2    50   ~ 0
-GND
-Text Label 1275 3175 2    50   ~ 0
-GND
-Text Label 2125 3175 0    50   ~ 0
-LED_00
-Text Label 2125 3425 0    50   ~ 0
-LED_01
 $EndSCHEMATC
