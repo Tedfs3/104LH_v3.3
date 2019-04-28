@@ -708,7 +708,7 @@
     (pad "" np_thru_hole circle (at 11.938 8.255 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   )
 
-  (module mx_stabs:Mx_Stab_200 (layer F.Cu) (tedit 5CC56402) (tstamp 5CC559C2)
+  (module mx_stabs:Mx_Stab_200 (layer F.Cu) (tedit 5CC56CD0) (tstamp 5CC559C2)
     (at 68.6435 149.9235 270)
     (descr MXALPS)
     (tags MXALPS)
@@ -773,7 +773,7 @@
     (fp_line (start -7.62 7.62) (end -7.62 -7.62) (layer Dwgs.User) (width 0.3))
     (pad "" np_thru_hole circle (at -11.938 -6.985 270) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 11.938 -6.985 270) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
-    (pad "" thru_hole circle (at -11.938 8.255 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -11.938 8.255 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 11.938 8.255 270) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   )
 
