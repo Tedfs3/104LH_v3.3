@@ -4,4 +4,5 @@
   (lib (name pcb)(type KiCad)(uri ${KIPRJMOD}/Modules/pcb.pretty)(options "")(descr ""))
   (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/Modules/logo.pretty)(options "")(descr ""))
   (lib (name mx_stabs)(type KiCad)(uri ${KIPRJMOD}/Modules/mx_stabs.pretty)(options "")(descr ""))
+  (lib (name plate)(type KiCad)(uri ${KIPRJMOD}/Modules/plate.pretty)(options "")(descr ""))
 )
